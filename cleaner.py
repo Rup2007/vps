@@ -6,12 +6,12 @@ from pymongo import MongoClient
 import os
 
 # Load environment variables
-MONGO_URI = os.environ.get("MONGO_URI")
-DB_NAME = os.environ.get("DATABASE_NAME")
+MONGO_URI = os.environ.get("mongodb+srv://userdat730:YwtGoLTTqKa5Ae0w@cluster0.tbfsfdv.mongodb.net/insta?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("insta")
 
 # Connect to MongoDB
-client = MongoClient(MONGO_URI)
-db = client[DB_NAME]
+client = MongoClient("mongodb+srv://userdat730:YwtGoLTTqKa5Ae0w@cluster0.tbfsfdv.mongodb.net/insta?retryWrites=true&w=majority&appName=Cluster0")
+db = client["insta"]
 
 # Auto-delete files older than 10 minutes
 async def clear_mongodb_collections_every_10_minutes():
