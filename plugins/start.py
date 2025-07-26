@@ -10,7 +10,8 @@ from helper_func import *
 from database.database import add_user, del_user, full_userbase, present_user
 
 async def delete_after_delay(message: Message, delay):
-    await asyncio.sleep(1800)
+   await asyncio.sleep(600)
+
     await message.delete()
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed1 & subscribed2 & subscribed3)
