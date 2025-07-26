@@ -50,11 +50,11 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("tham ja bhai de raha hu ⚡ ")
+        temp_msg = await message.reply("wait ⚡ ")
         try:
             messages = await get_messages(client, ids)
         except:
-            await message.reply_text("iski maa ki chut bhai file nahi hai be ")
+            await message.reply_text("pending")
             return
         await temp_msg.delete()
         for msg in messages:
