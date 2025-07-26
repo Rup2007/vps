@@ -1,0 +1,24 @@
+[12-Mar-25 13:58:48 - WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] (caused by "channels.GetChannels") Pyrogram 2.3.59 thinks: The channel parameter is invalid
+[12-Mar-25 13:58:48 - WARNING] - bot - Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value -1002280990808
+[12-Mar-25 14:01:51 - WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] (caused by "channels.GetChannels") Pyrogram 2.3.59 thinks: The channel parameter is invalid
+[12-Mar-25 14:01:51 - WARNING] - bot - Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value -1002280990808
+[12-Mar-25 14:15:50 - INFO] - bot - Bot made by @rohit_1888!
+[12-Mar-25 14:18:34 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[12-Mar-25 14:30:08 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[12-Mar-25 14:30:09 - INFO] - bot - Bot stopped. Contact @rohit_1888
+[12-Mar-25 14:43:59 - INFO] - bot - Bot made by @rohit_1888!
+[12-Mar-25 14:45:32 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[12-Mar-25 14:45:33 - INFO] - bot - Bot stopped. Contact @rohit_1888
+[12-Mar-25 14:45:53 - INFO] - bot - Bot made by @rohit_1888!
+[13-Mar-25 13:18:22 - WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] (caused by "channels.GetChannels") Pyrogram 2.3.45 thinks: The channel parameter is invalid
+[13-Mar-25 13:18:22 - WARNING] - bot - Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value -1002513113978
+[13-Mar-25 13:20:40 - INFO] - bot - Bot made by @rohit_1888!
+[13-Mar-25 13:34:01 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.EditMessage")
+[13-Mar-25 13:34:01 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+[13-Mar-25 13:40:36 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[13-Mar-25 13:40:39 - INFO] - bot - Bot stopped. Contact @rohit_1888
+[13-Mar-25 13:40:57 - INFO] - bot - Bot made by @rohit_1888!
+[13-Mar-25 13:51:25 - WARNING] - pyrogram.session.session - [Bot] Waiting for 4 seconds before continuing (required by "messages.EditMessage")
+[13-Mar-25 13:56:15 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[13-Mar-25 13:56:16 - INFO] - bot - Bot stopped. Contact @rohit_1888
+[13-Mar-25 14:00:39 - INFO] - bot - Bot made by @rohit_1888!
