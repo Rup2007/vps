@@ -78,7 +78,7 @@ async def start_command(client: Client, message: Message):
                 await msg.copy(chat_id=message.from_user.id, caption=caption, parse_mode=ParseMode.HTML, reply_markup=reply_markup, protect_content=PROTECT_CONTENT)
             except:
                 pass
-        await message.reply_text(f"<b><i>\n──────────────────────────\n➥ 𝚃𝚑𝚒𝚜 𝙼𝚊𝚜𝚜𝚊𝚐𝚎 𝚆𝚒𝚕𝚕 𝙱𝚎 𝙳𝚎𝚕𝚎𝚝𝚎𝚍 𝙸𝚗 10 minute.\n➥ 𝙼𝚞𝚜𝚝 𝙹𝚘𝚒𝚗 𝙾𝚞𝚛 𝙲𝚑𝚊𝚗𝚗al</i></b>")
+        await message.reply_text(f"<b>\n──────────────────\n➥ 𝚃𝚑𝚒𝚜 𝙼𝚊𝚜𝚜𝚊𝚐𝚎 𝚆𝚒𝚕𝚕 𝙱𝚎 𝙳𝚎𝚕𝚎𝚝𝚎𝚍 𝙸𝚗 10 minute.</b>")
 
         
         return
